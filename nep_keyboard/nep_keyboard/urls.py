@@ -18,5 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('nepali_leyboard/', include('nepali_keyboard.urls'))
+    path('nepali_keyboard/', include('nepali_keyboard.urls'))
 ]
